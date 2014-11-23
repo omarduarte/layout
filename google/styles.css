@@ -1,3 +1,8 @@
 body {
   /* rules go here */
 }
+
+top {
+	float: top;
+	padding-bottom: 60px;
+}
