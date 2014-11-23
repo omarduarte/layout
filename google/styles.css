@@ -2,7 +2,28 @@ body {
   /* rules go here */
 }
 
-top {
+/* Navivation */
+.top {
 	float: top;
 	padding-bottom: 60px;
+}
+
+.nav {
+	float: right;
+}
+
+.nav li {
+	display: inline;
+	padding-left: 10px;
+}
+
+.nav-link, .nav-link:visited, .nav-link:active {
+	color: #404040;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
 }
